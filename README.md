@@ -1,5 +1,9 @@
 # Next.js
 
+Figma Design:
+
+https://www.figma.com/resources/assets/saas-dashboard-crm-ui-kit/
+
 To add Tailwind to a Next (^9.2.0) project, start by installing `tailwindcss`, `postcss-import` and `autoprefixer`:
 
 ```sh
