@@ -4,7 +4,7 @@ import Tasks from '../components/Tasks';
 import LineChart from '../components/LineChart';
 import LineChartWrapper from '../components/LineChartWrapper';
 import DonutChartWrapper from '../components/DonutChartWrapper';
-export default () => {
+export const Home = () => {
 	return (
 		<Layout>
 			<div className="grid grid-cols-1 xl:grid-cols-2 items-start p-8">
@@ -23,3 +23,5 @@ export default () => {
 		</Layout>
 	);
 };
+
+export default Home;
