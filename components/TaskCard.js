@@ -37,7 +37,7 @@ export default function TaskCard(props) {
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
 						>
-							<circle cx="6" cy="6" r="5" stroke="#FFB946" stroke-width="2" />
+							<circle cx="6" cy="6" r="5" stroke="#FFB946" strokeWidth="2" />
 						</svg>{' '}
 					</button>
 

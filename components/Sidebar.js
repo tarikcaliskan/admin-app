@@ -2,15 +2,28 @@ import React from 'react';
 import SideItem from './SideItem';
 
 export default function Sidebar() {
+	const [isOpen, setIsOpen] = React.useState(false);
 	return (
 		<>
-			<div className="flex-none w-full md:w-auto 2xl:w-1/2 lg:max-w-xs pb-5 md:pb-0 bg-white text-gray-900 shadow-xl">
-				<div className="flex justify-center py-5 border-b-2 border-gray-300">
+			<div className="flex-none w-full md:w-auto 2xl:w-1/2 lg:max-w-xs bg-white text-gray-900 shadow-xl">
+				<div className="flex justify-between lg:justify-center py-5 px-5 border-b-2 border-gray-300 items-center">
 					<h1 className="text-blue-600 font-semibold text-xl">
 						Admin Dashboard
 					</h1>
+					<div className="block lg:hidden">
+						<button
+							className="flex items-center focus:outline-none"
+							onClick={() => setIsOpen(!isOpen)}
+						>
+							<img
+								className="w-6 h-6 hover:text-blue-600"
+								src="./assets/icons/menu.svg"
+								alt="Hamburger menu"
+							/>
+						</button>
+					</div>
 				</div>
-				<div className="ml-6">
+				<div className={`ml-6 ${isOpen ? 'block' : 'hidden'} lg:block`}>
 					<div className="flex items-center justift-center mt-4">
 						<img
 							className="h-12 w-12 rounded-full"
