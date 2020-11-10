@@ -1,5 +1,8 @@
 # Next.js
 
+Online demo:
+https://admin-appp.netlify.app/
+
 Figma Design:
 
 https://www.figma.com/resources/assets/saas-dashboard-crm-ui-kit/
