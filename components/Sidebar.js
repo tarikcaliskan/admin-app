@@ -5,7 +5,11 @@ export default function Sidebar() {
 	const [isOpen, setIsOpen] = React.useState(false);
 	return (
 		<>
-			<div className="flex-none w-full md:w-auto 2xl:w-1/2 lg:max-w-xs bg-white text-gray-900 shadow-xl">
+			<div
+				className={`flex-none w-full md:w-auto 2xl:w-1/2 lg:max-w-xs bg-white text-gray-900 shadow-xl ${
+					isOpen ? 'pb-5' : 'pb-0'
+				} lg:pb-0`}
+			>
 				<div className="flex justify-between lg:justify-center py-5 px-5 border-b-2 border-gray-300 items-center">
 					<h1 className="text-blue-600 font-semibold text-xl">
 						Admin Dashboard
