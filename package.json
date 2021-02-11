@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"@fullhuman/postcss-purgecss": "^1.2.0",
-		"apexcharts": "^3.19.2",
+		"apexcharts": "^3.24.0",
 		"autoprefixer": "^9.7.4",
 		"chart.js": "^2.9.3",
 		"next": "^9.2.0",
